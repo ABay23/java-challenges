@@ -7,6 +7,8 @@ public class Main {
         int highScorePosition = calculatedHighScorePosition(20);
         displayHighScorePosition("jay", highScorePosition);
 
+        System.out.println(convertToCm(6, 0));
+
     }
 
     public static void displayHighScorePosition(String name, int position){
@@ -23,5 +25,18 @@ public class Main {
         } else {
             return 4;
         }
+    }
+
+    //* Method Overload Challenge
+    public static double convertToCm(int height){
+        double cent = height * 2.54;
+        return cent;
+    }
+
+    public static double convertToCm(int height, int inches){
+        int feetToInches = height * 12;
+        int newInches = feetToInches + inches;
+        double cent = convertToCm(newInches);
+        return cent;
     }
 }
