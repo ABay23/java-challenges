@@ -7,5 +7,8 @@ public class Store {
     private static ArrayList<ProductForSale> storeProducts = new ArrayList<>();
     public static void main(String[] args){
 
+        storeProducts.add(new ArtObject("Oil Painting", 1350,
+                "Impressionistic work by JFK, produced in 1950"));
+
     }
 }
