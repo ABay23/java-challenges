@@ -10,5 +10,8 @@ public class Store {
         storeProducts.add(new ArtObject("Oil Painting", 1350,
                 "Impressionistic work by JFK, produced in 1950"));
 
+        storeProducts.add(new ArtObject("Sculpture", 2000,
+                            "Bronze work by JFK, produced in 1950"));
+
     }
 }
