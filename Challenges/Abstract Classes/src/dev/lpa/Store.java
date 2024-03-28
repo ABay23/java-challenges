@@ -13,6 +13,8 @@ public class Store {
         storeProducts.add(new ArtObject("Sculpture", 2000,
                             "Bronze work by JFK, produced in 1950"));
 
+        listProducts();
+
     }
 
     public static void listProducts(){
