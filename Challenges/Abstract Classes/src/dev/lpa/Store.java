@@ -14,4 +14,12 @@ public class Store {
                             "Bronze work by JFK, produced in 1950"));
 
     }
+
+    public static void listProducts(){
+
+        for (var item: storeProducts ){
+            System.out.println("-" .repeat(30));
+            item.showDetails();
+        }
+    }
 }
