@@ -2,6 +2,10 @@ package dev.lpa;
 
 import java.util.ArrayList;
 
+record OrderItem(int qty, ProductForSale product){
+
+}
+
 public class Store {
 
     private static ArrayList<ProductForSale> storeProducts = new ArrayList<>();
