@@ -28,4 +28,9 @@ public class Store {
             item.showDetails();
         }
     }
+
+    public static void addItemToOrder(ArrayList<OrderItem> order, int orderIndex,
+                                            int qty){
+        order.add( new OrderItem(qty, storeProducts.get(orderIndex)));
+    }
 }
